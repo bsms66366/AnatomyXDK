@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Anatomy Interface</title>
+<meta name="apple-touch-fullscreen" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<!--<meta name="viewport" content="width=device-width">-->
+ <link   href="css/bootstrap.min.css" rel="stylesheet">
+    <script src="js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<!--<link rel="apple-touch-startup-image"
+      href="./anatomyMenu6.html" />-->
+   <script>
+       $(window).load(function(){
+    $('meta[name=viewport]').attr('content','width=800, maximum-scale=1')
+  }); </script>
+ <script> javascript:if(!document.webkitFullscreenElement){document.getElementsByTagName('html')[0].webkitRequestFullscreen();} else{document.webkitExitFullscreen()};</script>
+</head>
+
+<body>
+<div style="background-image: url('background.png'); height: 1000px; overflow-x: hidden;" id="banner">
+<div style="width: 800%; max-width: 1000px; min-width: 900px; margin: auto; color: white; text-align: center; position: relative; padding-top: 10px;">
+<div style="width: 10%;"></div>
+
+<!--Modules-->
+<div id="timetableDIV" style="float: left; width: 15%; border-right: 1px dotted #ccc; margin-left:10px; padding-left: 10px; padding-right: 20px; padding-top: 10px; position: relative; height: 200px;" ><a href="#" target="_blank" id="timetablelink1" class="timetable"><img id="timetableimageid" alt="" src="moduleLogo2[w].svg" title="Access your timetable" width="69" height="69" /> </a>
+<div style="position: absolute; top: 80px; padding-right: 10px;">
+<h3 style="color: #bbba41; font-size: 1.3em; font-weight: 400; font-family: arial; text-align: left;"><a href="#" style="text-decoration: none; color: #bbba41;" target="_blank" title="Access your timetable" id="timetablelink2" class="timetable">Modules</a></h3>
+<p id="timetablep" style="text-align: left;"><a href="#" style="text-decoration: none; color: #fff; font-family: arial;" target="_blank" title="Access your timetable" id="timetablelink3" class="timetable;">Select your course and modules to view your content.</a></p>
+<!--dropdown-->
+<div id="dropdown1" style="margin-top: 1.5cm;"></div>
+<!--module 102-->
+<ul id="links1">
+<li style="list-style-type: none;"><div id="MOD102DIV"><a target="_blank" href="https://studentcentral.brighton.ac.uk/webapps/blackboard/execute/modulepage/view?course_id=_101701_1&cmp_tab_id=_255677_1&editMode=true&mode=cpview" id="modulelinktop102" class="module"><img id="module102imageid" alt="Module 102" src="moduleLink102[white2A].svg" title="module102" width="400" height="400"/> </a></li>
+<p></p>
+<!--module 103-->
+<li style="list-style-type: none;"><div id="MOD103DIV"><a target="_blank" href="https://studentcentral.brighton.ac.uk/webapps/blackboard/execute/modulepage/view?course_id=_101702_1&cmp_tab_id=_255679_1&editMode=true&mode=cpview" id="modulelinktop103" class="module"><img id="module103imageid" alt="Module 103" src="moduleLink103[white2].svg" title="module103" width="400" height="400" /> </a></li>
+<p></p>
+<!--module 104-->
+<li style="list-style-type: none;"><div id="MOD104DIV"><a target="_blank" href="https://studentcentral.brighton.ac.uk/webapps/blackboard/execute/modulepage/view?course_id=_101703_1&cmp_tab_id=_255681_1&editMode=true&mode=cpview" id="modulelinktop104" class="module"><img id="module104imageid" alt="Module 104" src="moduleLink104[white3].svg" title="module104" width="400" height="400" /> </a></li>
+<p></p>
+<!--module 202-->
+<li style="list-style-type: none;"><div id="MOD202DIV"><a target="_blank" href="https://studentcentral.brighton.ac.uk/webapps/blackboard/execute/modulepage/view?course_id=_101705_1&cmp_tab_id=_255685_1&editMode=true&mode=cpview" id="modulelinktop202" class="module"><img id="module202imageid" alt="Module 202" src="moduleLink202[white3].svg" title="module202" width="400" height="400" /> </a></li>
+
+<p></p>
+<!--module 203-->
+<li style="list-style-type: none;"><div id="MOD203DIV"><a target="_blank" href="https://studentcentral.brighton.ac.uk/webapps/blackboard/execute/modulepage/view?course_id=_101706_1&cmp_tab_id=_255687_1&editMode=true&mode=cpview" id="modulelinktop203" class="module"><img id="module203imageid" alt="Module 203" src="moduleLink203[white2].svg" title="module203" width="400" height="400" /> </a></li>
+<p></p>
+<!--module 204-->
+<li style="list-style-type: none;"><div id="MOD204DIV"><a target="_blank" href="https://studentcentral.brighton.ac.uk/webapps/blackboard/execute/modulepage/view?course_id=_101707_1&cmp_tab_id=_255689_1&editMode=true&mode=cpview" id="modulelinktop204" class="module"><img id="module204imageid" alt="Module 204" src="moduleLink204[white2].svg" title="module204" width="400" height="400" /> </a></li>
+</ul>
+</div>
+</div>
+<!--DR Notes-->
+<div id="DRNOTESDIV" style="float: left; width: 17%; border-right: 1px dotted #ccc; padding-left: 10px; padding-right: 20px; padding-top: 10px; position: relative; height: 200px;"><a target="_blank" href="#" id="drnoteslinktop1" class="drnotes"><img id="drnotesimageid" alt="Dissection Room Notes" src="notes[w].svg" title="dissection room notes" width="69" height="69" /> </a>
+<div style="position: absolute; top: 80px; padding-right: 10px;">
+<h3 style="color: #bbba41; font-size: 1.3em; font-weight: 400; font-family: arial; text-align: left;"><a target="_blank" href="#" style="text-decoration: none; color: #bbba41;" id="drnoteslinktop2" title="Dissection Room Notes" class="drnotes">DR Notes</a></h3>
+<p style="text-align: left;"><a target="_blank" href="#" style="text-decoration: none; color: white; font-family: arial;" id="drnoteslinktop3" title="Dissection Room Notes" class="drnotes">Instruction notes for practical sessions.</a></p>
+
+<!--DR Note1 dropdown-->
+<div id="dropdown2" style="margin-top: 2cm;"></div>
+<ul id="links2">
+<li style="list-style-type: none;"><div id="MOD205DIV"><a target="_blank" href="ReadingList-.pdf" id="modulelinktop205" class="module"><img id="module205imageid" alt="Module 205" src="DRNoteLink102.svg" title="DR Notes" width="400" height="400" /> </a></li>
+<li style="list-style-type: none;"><div id="MOD205aDIV"><a target="_blank" href="ReadingList-.pdf" id="modulelinktop205a" class="module"><img id="module205aimageid" alt="Module 205a" src="DRNoteLink102.svg" title="DR Notes Module 102" width="400" height="400" /> </a></li>
+</ul></ul>
+</div>
+</div>
+
+<!--Videocasts-->
+<div id="VIDEODIV" style="float: left; width: 17%; border-right: 1px dotted #ccc; padding-left: 10px; padding-right: 20px; padding-top: 12px; position: relative; height: 200px;"><a href="#" target="_blank" id="videolink1" class="video"><img id="videoimageid" alt="" src="vodcasts[white].svg" title="Videocasts" width="69" height="69" /> </a>
+<div style="position: absolute; top: 80px; padding-right: 10px;">
+<h3 style="color: #bbba41; font-size: 1.3em; font-weight: 400; font-family: arial; text-align: left;"><a href="#" style="text-decoration: none; color: #bbba41;" target="_blank" id="videolink2" title="Videocasts" class="video">Videocasts</a></h3>
+<p style="text-align: left;"><a href="#" style="text-decoration: none; color: white; font-family: arial;" target="_blank" id="videolink3" title="Videocast" class="video">This section is password protected</a></p>
+<div id="dropdown3" style="margin-top: 2cm;"></div>
+<ul id="links3">
+<li style="list-style-type: none;"><div id="MOD206DIV"><a target="_blank" href="http://blogs.brighton.ac.uk/bsmsvideos/" id="modulelinktop206" class="module"><img id="module206imageid" alt="Module 206" src="vodcastsLink[white].svg" title="videocasts" width="600" height="600" /> </a></li></ul>
+</div>
+</div>
+<!--ShowMe-->
+<div id="newsDIV" style="float: left; width: 17%; border-right: 1px dotted #ccc; padding-left: 10px; padding-right: 20px; padding-top: 10px; position: relative; height: 200px;"><a href="#" target="_blank" id="newslink1" class="news"><img id="newsimageid" alt="" src="presention[white].svg" title="News and events" width="79" height="67" /> </a>
+<div style="position: absolute; top: 80px; padding-right: 10px;">
+<h3 style="color: #bbba41; font-size: 1.3em; font-weight: 400; font-family: arial; text-align: left;"><a href="#" style="text-decoration: none; color: #bbba41;" target="_blank" id="newslink2" title="News and events" class="news">Presentations</a></h3>
+<p style="text-align: left;"><a href="#" style="text-decoration: none; color: #fff; font-family: arial;" target="_blank" id="newslink3" title="News and events" class="news">showMe/YouTube presentations</a></p>
+<p></p>
+<!--ShowMe Presentation dropdowns-->
+<div id="dropdown4" style="margin-top: 2cm;"></div>
+
+<!--showMe Link-->
+<ul id="links4">
+<li style="list-style-type: none;"><div id="MOD102ADIV"><a target="_blank" href="http://www.showme.com/Claire-smith-5" id="modulelinktop102A" class="module"><img id="module102Aimageid" alt="Module 102A" src="showMeLink[white].svg" title="module102A" width="400" height="400" /> </a></li>
+<p></p>
+
+<!--youtube Link-->
+<li style="list-style-type: none;"><div id="MOD203ADIV"><a target="_blank" href="https://www.youtube.com/watch?v=VqPNDbsUbh4" id="modulelinktop203A" class="module"><img id="module203Aimageid" alt="Module 203A" src="youtubeLink[white].svg" title="module203A" width="300" height="300" /> </a></li>
+
+<!--nearpod Link-->
+<li style="list-style-type: none;"><div id="MOD204ADIV"><a target="_blank" href="https://www.nearpod.com" id="modulelinktop204A" class="module"><img id="module204Aimageid" alt="Module 2034" src="NearpodLink.svg" title="module204A" width="300" height="300" /> </a></li></ul>
+</ul>
+
+</div>
+</div>
+
+<!--Anatomy Librarys-->
+<div id="cardDIV" style="float: left; width: 17%; border-right: none; padding-left: 10px; padding-right: 20px; padding-top: 10px; position: relative; height: 200px;"><a href="#" target="_blank" id="cardlink2" class="card"><img id="cardimageid" alt="" src="media2[white].svg" title="Image Banks" width="82" height="67" /> </a>
+<div style="position: absolute; top: 80px; padding-right: 10px;">
+<h3 style="color: #bbba41; font-size: 1.3em; font-weight: 400; font-family: arial; text-align: left;"><a href="#" style="text-decoration: none; color: #bbba41;" target="_blank" id="cardlink2" title="Image Banks" class="card">Image Banks</a></h3>
+<p style="text-align: left;"><a href="#" style="text-decoration: none; color: white; font-family: arial;" target="_blank" id="cardlink3" title="Image Banks" class="card">Access to Primal Pictures and Acland anatomy</a></p>
+<p></p>
+<p></p>
+<!--image bank libarys-->
+<div id="dropdown5" style="margin-top: 2cm;"></div>
+
+<!--Acland anatomy-->
+<ul id="links5">
+<li style="list-style-type: none;"><div id="ACLANADIV"><a target="_blank" href="http://aclandanatomy.com" id="ACLANAlinktop" class="module"><img id="ACLANAimageid" alt="Acland anatomy" src="aclandLink[white].svg" title="Acland anatomy" width="200" height="200" /> </a></li>
+<p></p>
+<!-- Primal Pictures-->
+<li style="list-style-type: none;"><div id="PRMPICSDIV"><a target="_blank" href="https://primalpictures.com" id="PRMPICSlinktop" class="module"><img id="PRMPICSimageid" alt=" Primal Pictures" src="primalLink[white].svg" title=" Primal Pictures" width="200" height="200" /> </a></li>
+</ul></ul>
+</div>
+</div>
+</div>
+<!--Title-->
+<div id="anatomytitle" style="float: right; width: 64%; border-right: none; padding-left: 30px; padding-right: 20px; margin-top:300px; position: relative; height: 200px;"><a href="#" target="_blank" id="anatomytitle" class="img"><img id="anatomytitleimageid" alt="" src="AnatomyTitle.svg" title="Image Banks" width="800" height="800" /></a></div>
+
+<!--Nearpod
+<div id="NEARPOD" style="float: right; width: 64%; border-right: none; padding-left: 50px; padding-right: 20px; margin-top:50px; position: relative; height: 100px;"><a href="#" target="_blank" id="nearpod" class="img"><img id="nearpodimageid" alt="" src="nearpod_logo_home.svg" title="Nearpod" width="100" height="100" /></a></div>-->
+</div>
+
+</div>
+
+</body>
+</html>
